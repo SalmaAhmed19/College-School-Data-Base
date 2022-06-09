@@ -1,0 +1,282 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2512
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica-Bold;\f1\froman\fcharset0 Times-Bold;\f2\ftech\fcharset77 Symbol;
+\f3\fswiss\fcharset0 Helvetica;\f4\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue255;\red255\green0\blue0;\red99\green36\blue35;
+\red112\green48\blue160;\red192\green0\blue0;\red0\green0\blue204;}
+{\*\expandedcolortbl;;\csgenericrgb\c0\c0\c100000;\csgenericrgb\c100000\c0\c0;\csgenericrgb\c38824\c14118\c13725;
+\csgenericrgb\c43922\c18824\c62745;\csgenericrgb\c75294\c0\c0;\csgenericrgb\c0\c0\c80000;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat325\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid3}
+{\list\listtemplateid4\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid301\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid4}
+{\list\listtemplateid5\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid401\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid5}
+{\list\listtemplateid6\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid501\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid6}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}{\listoverride\listid5\listoverridecount0\ls5}{\listoverride\listid6\listoverridecount0\ls6}}
+{\info
+{\author IITS}}\margl1440\margr1440\vieww28800\viewh18000\viewkind1
+\deftab720
+\pard\pardeftab720\ri0\partightenfactor0
+
+\f0\b\fs24 \cf2 \ul \ulc2 CS 311 Yoshii HW8 - Hashing (based on week 8)\
+\pard\pardeftab720\ri0\partightenfactor0
+\cf2 \ulnone \
+DUE:  Week 14 \cf3 Wed  \cf2 (the last homework) \'96 no late work is accepted!\
+\
+TOTAL 24 points       \ul Your score:     \ulnone \
+\pard\pardeftab720\ri0\partightenfactor0
+\cf0 \
+*NAME:   Salma Rashed                          *Did you do the EC feature?  No\
+\
+\pard\tx9360\pardeftab720\ri0\partightenfactor0
+\cf0 *DATE SUBMITTED:5/4/2022\
+\pard\pardeftab720\ri0\partightenfactor0
+\cf0 \
+This program in leu of the final project will put everything you have learned together into something useful for you.\
+\pard\pardeftab720\ri0\partightenfactor0
+
+\fs20 \cf0 \
+\pard\pardeftab720\ri0\partightenfactor0
+
+\fs24 \cf2 \ul \ulc2 PROGRAM: Hash Table  [4+16=20pts] 		Your score:\
+\pard\pardeftab720\ri0\partightenfactor0
+\cf2 \ulnone Elem class:
+\f1 \
+
+\f0 Implementation:\
+Client:\
+Test results:\
+\pard\pardeftab720\ri0\partightenfactor0
+\cf2 \ul \ulc2 Total 20 points:\
+Q\'92s 4 points:\
+\pard\pardeftab720\ri0\partightenfactor0
+\cf0 \ulnone Q. Preparation before Programming [2pts]
+\f1 \
+\pard\pardeftab720\li720\fi-360\ri0\partightenfactor0
+\ls1\ilvl0
+\f2\b0 \cf0 \'a5	
+\f0\b What are the \ul linked list functions\ulnone  you will have to call from htable functions?\
+deleteITh , addRear , search and isEmpty\
+\
+\
+\ls1\ilvl0
+\f2\b0 \'a5	
+\f0\b What 2 pieces of info do you add to the element and why (what useful application)?  \
+Major \
+Grad date\
+\
+\
+For colleges/universities to look up students and their info using a 3 number digit code (key)\
+\
+\
+\
+\pard\pardeftab720\ri0\partightenfactor0
+\cf0 Q. State of the program statement [2pts] 
+\f1 \
+\pard\pardeftab720\li720\fi-360\ri0\partightenfactor0
+\ls2\ilvl0
+\f2\b0 \cf0 \'a5	
+\f0\b Does your program compile without errors?yes \
+\ls2\ilvl0
+\f2\b0 \'a5	
+\f0\b List any bugs you are aware of, or state \'93No bugs\'94:No Bugs 
+\f1 \
+\ls2\ilvl0
+\f2\b0 \'a5	
+\f0\b Did you test to make sure all colliding elements can be retrieved?Yes\
+\pard\pardeftab720\ri0\partightenfactor0
+
+\f1 \cf0 \
+\pard\pardeftab720\ri0\partightenfactor0
+
+\f0 \cf0 \ul \ulc0 Update the \cf3 \ulc3 elem class\cf0 \ulc0 :
+\f1 \
+\pard\pardeftab720\ri0\partightenfactor0
+
+\f0 \cf4 \ulnone Each element of a linked list node has to have the key (a 3 digit account number)
+\f1 ,
+\f0  name, and at least \cf3 2 other pieces\cf4  of info chosen by you.
+\f1 \
+
+\f0 Choose things to make this program useful for you!!!!
+\f1 \
+
+\f0 We need to make this change quickly without changing llist and slist very much.
+\f1 \cf0 \
+
+\f0 \cf4 Study \cf3 elem.h\cf4  and \cf3 elem.cpp\cf4  that the client has set up to define el_t.
+\f1 \
+
+\f0 You \cf3 must edit the overloading of cout\cf4  to make sure elements are displayed completely.
+\f1 \
+\
+\pard\pardeftab720\ri0\partightenfactor0
+
+\f0 \cf4 \ul \ulc4 Update your \cf3 \ulc3 linked list classes\cf4 \ulc4 :
+\f1 \
+\pard\pardeftab720\ri0\partightenfactor0
+
+\f0 \cf4 \ulnone -- \cf3 elem.h\cf4  is included (no more typedef)
+\f1 \
+
+\f0 -- copy search \cf3 as search2\cf4  and then change it to return the found element itself instead of the position (an blank element is returned if not found)
+\f1 \
+
+\f0 No other changes should be necessary to use an element object.
+\f1 \
+\
+\pard\pardeftab720\ri0\partightenfactor0
+
+\f0 \cf4 \ul \ulc4 The \cf3 \ulc3 input file\cf4 \ulc4  must contain an element per line.\
+\pard\pardeftab720\ri0\partightenfactor0
+\cf4 \ulnone e.g.  123  Sue   CS  20\
+         325  Mike CIS 18\
+\
+\pard\pardeftab720\ri0\partightenfactor0
+\cf4 \ul \ulc4 Complete \cf3 \ulc3 htable.cpp: 
+\f1 \cf4 \ulc4 \
+\pard\pardeftab720\ri0\partightenfactor0
+
+\f0 \cf4 \ulnone Must use my \cf3 htable.h\cf4  (unchanged so read it carefully!)\
+\pard\pardeftab720\ri0\partightenfactor0
+\cf4 \ul \ulc4 Data Member
+\f3\b0 \ulnone : an array containing slists
+\f1\b .
+\f3\b0   Table size is a prime number 37.
+\f4 \
+\pard\pardeftab720\ri0\partightenfactor0
+
+\f3 \cf4 Table[i] is an slist.  You can call any slist/llist function on table[i]
+\f4 \
+\pard\pardeftab720\ri0\partightenfactor0
+
+\f0\b \cf4 \ul \ulc4 Functions:
+\f1 \
+\pard\pardeftab720\ri0\partightenfactor0
+
+\f0 \cf4 \ulnone Int hash(int key) 
+\f3\b0 turns the key into a slot number using % table size.  Private.\
+
+\f0\b void fillTable(istream&)\ul   
+\f3\b0 \ulnone fills the tables with the data from the specified input file. \
+
+\f0\b Int add(el_t)
+\f3\b0  adds the element to the table and return the slot number. \
+\pard\pardeftab720\li740\fi-360\ri0\partightenfactor0
+\ls3\ilvl0\cf4 -	will have to call your private hash function to convert the key part into a slot number.\
+\pard\pardeftab720\ri0\partightenfactor0
+
+\f0\b \cf4 El_t find(int key) 
+\f3\b0 finds the element given the key. Need to call the hash function. Use 
+\f0\b \cf3 search2
+\f4\b0 \cf4 .\
+
+\f0\b int deleteIt(int key)
+\f3\b0  finds the element given the key (call 
+\f0\b \cf3 search
+\f3\b0 \cf4 ) and deletes it from the table. (call 
+\f0\b \cf3 deleteIth
+\f3\b0 \cf4 ). Returns the slot number.
+\f4 \
+
+\f0\b Void displayTable()
+\f3\b0  displays the table in a readable format, including slots numbers.
+\f4 \
+
+\f0\b Void saveTable(ostream&)
+\f3\b0   outputs the table to an outfile in the same format as the input file.\
+\pard\pardeftab720\ri0\partightenfactor0
+
+\f1\b \cf3 \
+\pard\pardeftab720\ri0\partightenfactor0
+
+\f0 \cf5 \ul \ulc5 Extra Credit Feature for HW8: 3pts
+\f1 \
+
+\f0 Instead of int key, use string key everywhere.  This string could be a long string made up of digists and/or charaters that is easier to remember than an ID number.  This means your hash function has to convert and shorten it before MOD by the table size.  Do this in a copy of the folder after the regular HW8 works and files and results are submitted (see *\'92s in the SIBMIT list below). Program files you submit are for EC.
+\f1 \
+
+\f0 Unless it works perfectly, no points will be given.
+\f1 \
+\pard\pardeftab720\ri0\partightenfactor0
+\cf3 \ulnone \
+\pard\pardeftab720\ri0\partightenfactor0
+
+\f0 \cf4 \ul \ulc4 Complete \cf3 \ulc3 hw8client.cpp\cf4 \ulc4 ):  (see \cf3 \ulc3 hw8demo.out\cf4 \ulc4  first and make sure your program can produce the same kind of  output)\cf3 \ulnone  Make sure you list all the elem functions the client will be calling before programming!
+\f1 \
+\pard\pardeftab720\ri0\partightenfactor0
+
+\f0 \cf4 Add the main comment and the initial cout describing your app.\'92s usefulness!
+\f1 \
+
+\f0 Do all 6 menu items in the given order (1-6)
+\f1 .\
+\pard\pardeftab720\ri0\partightenfactor0
+
+\f3\b0 \cf0 Test results  
+\f0\b \cf3 Test1.txt showing that \ul all\ulnone  collided elements can be retrieved\
+Output file must be produced.  Rename the output file to something else.
+\f1 \
+\pard\pardeftab720\ri0\partightenfactor0
+
+\f0 \cf3 Run the program again to make sure you can read the renamed output file and display the table.\
+\pard\pardeftab720\li720\fi-360\ri0\partightenfactor0
+\ls4\ilvl0\cf3 \uc0\u63743 	Test2.txt\
+\pard\pardeftab720\ri0\partightenfactor0
+
+\f4\b0 \cf0 \
+\pard\pardeftab720\ri0\sl276\slmult1\sa200\partightenfactor0
+
+\f0\b \cf2 \ul \ulc2 SUBMIT ONLY THESE 10 (or 14 for EC) FILES:  \cf6 \ulc6 Did you answer all the questions?\
+\pard\pardeftab720\li720\fi-360\ri0\partightenfactor0
+\ls5\ilvl0\cf2 \ulnone 1.	\ul This assignment sheet
+\f1 \
+\ls5\ilvl0
+\f0 \ulnone 2.	\ul The header of elem class \cf3 \ulc3 (elem.h)
+\f1 \cf2 \ulc2 \
+\ls5\ilvl0
+\f0 \ulnone 3.	\ul The implementation of elem class \cf3 \ulc3 (elem.cpp)\
+\ls5\ilvl0\cf2 \ulnone 4.	the implementation that has search2\cf0  (\cf3 slist.cpp\cf0 )\
+\ls5\ilvl0\cf2 5.	the implementation\cf0  (\cf3 htable.cpp\cf0 ), 
+\f1 \
+\ls5\ilvl0
+\f0 \cf2 6.	the client (\cf3 hw8client.cpp\cf2 )
+\f1 \cf0 \
+\pard\pardeftab720\li720\fi-360\ri0\partightenfactor0
+\ls5\ilvl0
+\f0 \cf3 7.	Input file *      (and EC input)
+\f1 \
+\ls5\ilvl0
+\f0 8.	Output file*    (and EC output)
+\f1 \
+\ls5\ilvl0
+\f0 9.	Test1.txt*       (and EC test1)
+\f1 \
+\ls5\ilvl0
+\f0 10.	Test2.txt *      (and EC test2)
+\f1 \
+\pard\pardeftab720\ri0\partightenfactor0
+
+\f0 \cf6 Now you have a linked list that is very easy to update!!!\
+Keep it and the elem class for your future classes!!!
+\f1 \
+\pard\pardeftab720\ri0\sl276\slmult1\sa200\partightenfactor0
+
+\f0\fs22 \cf7 \ul \ulc7 CHECK LIST before you submit:\
+\pard\pardeftab720\li720\fi-360\ri0\partightenfactor0
+\ls6\ilvl0
+\f2\b0 \cf6 \ulnone \'a5	
+\f0\b Whether working or not, test result must include the lines for compiling your files or we will not grade your program i.e. 0 points for the program.\
+\ls6\ilvl0
+\f2\b0 \'a5	
+\f0\b Did you check your comments and style against CS311 How To Comment.doc??yes\
+\ls6\ilvl0
+\f2\b0 \'a5	
+\f0\b Did you answer all the questions?yes\
+\pard\pardeftab720\ri0\partightenfactor0
+\ls6\ilvl0
+\f2\b0 \cf6 \'a5	
+\f0\b Always make sure your functions are \ul re-usable and you avoided repeating code\ulnone !!!!\
+\pard\pardeftab720\fi720\ri0\sl276\slmult1\sa200\partightenfactor0
+
+\f4\b0\fs24 \cf0 \
+}

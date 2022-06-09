@@ -1,0 +1,61 @@
+Script started on Wed 04 May 2022 07:43:10 PM PDT
+]0;rashe005@empress:~/CS311Progs/HWPrograms/forHW8[?1034h[rashe005@empress forHW8]$ g++ *.cpp
+]0;rashe005@empress:~/CS311Progs/HWPrograms/forHW8[rashe005@empress forHW8]$ ./a.out
+This app should be used by univerities to keep track of students name , major and expected graduation date 
+What is the input file? (.txt file)newout.txt
+0:[empty]
+1:[empty]
+2:[empty]
+3:[empty]
+4:[empty]
+5:[empty]
+6:[empty]
+7:[empty]
+8:[empty]
+9:[empty]
+10:[empty]
+11:[empty]
+12:[ 456 Myriam Bio 2023
+  789 Ayoub CS 2024
+ ]
+13:[empty]
+14:[empty]
+15:[empty]
+16:[empty]
+17:[empty]
+18:[empty]
+19:[empty]
+20:[empty]
+21:[empty]
+22:[empty]
+23:[empty]
+24:[empty]
+25:[ 321 Taya CS 2023
+  654 Nasser Finance 2023
+  987 Chris CS 2020
+ ]
+26:[empty]
+27:[empty]
+28:[empty]
+29:[empty]
+30:[empty]
+31:[empty]
+32:[empty]
+33:[empty]
+34:[empty]
+35:[empty]
+36:[empty]
+
+MENU: ---- 
+1 Add an element
+2 Find an element
+3 Delete an element
+4 Display the table
+5 Save the table to a file
+6 Quit
+6
+bye
+]0;rashe005@empress:~/CS311Progs/HWPrograms/forHW8[rashe005@empress forHW8]$ exit
+exit
+
+Script done on Wed 04 May 2022 07:43:36 PM PDT
